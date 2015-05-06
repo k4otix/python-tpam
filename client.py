@@ -164,7 +164,7 @@ class SSHClient:
                     except error.TPAMError:
                         raise
         else:
-            raise error.TPAMAPIError("ReasonText or ReleaseNotes required")
+            raise error.TPAMAPIError("ReasonText or RequestNotes required")
         return password
     
     
